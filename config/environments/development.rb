@@ -34,4 +34,18 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+
+  # Bullet alerts you when to add eager loading (N+1 queries),
+  # when you're using eager loading that isn't necessary and when you
+  # should use counter cache.
+  # See https://github.com/flyerhzm/bullet
+  config.after_initialize do
+    Bullet.enable = true
+    Bullet.alert = true
+    Bullet.bullet_logger = false
+    Bullet.console = true
+    Bullet.growl = false
+    Bullet.xmpp = false
+    Bullet.rails_logger = true
+  end
 end
