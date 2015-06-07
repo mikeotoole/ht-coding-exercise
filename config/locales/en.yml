@@ -1,23 +1,7 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  errors:
+    not_found: 'API end-point does not exist. Only JSON requests are allowed.'
+    negative_page: "Invalid page number (can't be negative)."
+    invalid_near_param: 'Param near is invalid. Must be a lat,lon.'
+    invalid_since_param: 'Param since is invalid. Must be valid UNIX timestamp.'
+    invalid_status_param: 'Param status is invalid. Must be Closed or Opened.'

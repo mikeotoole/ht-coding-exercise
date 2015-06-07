@@ -1,0 +1,342 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://data.sfgov.org/resource/vw6y-z8j6.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sun, 07 Jun 2015 22:54:45 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Last-Modified:
+      - Sun, 07 Jun 2015 10:00:56 PDT
+      X-Soda2-Warning:
+      - X-SODA2-Fields, X-SODA2-Types, and X-SODA2-Legacy-Types are deprecated
+      X-Soda2-Fields:
+      - '[":updated_at","status","request_type","media_url","neighborhood","supervisor_district","responsible_agency","point","category","request_details","source","address","updated","case_id","closed",":id",":created_at","opened"]'
+      X-Soda2-Types:
+      - '["meta_data","text","text","url","text","number","text","location","text","text","text","text","calendar_date","number","calendar_date","meta_data","meta_data","calendar_date"]'
+      X-Soda2-Legacy-Types:
+      - 'true'
+      X-Socrata-Region:
+      - production
+      Age:
+      - '2'
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        [ {
+          "point" : {
+            "needs_recoding" : false,
+            "longitude" : "-122.439266918906",
+            "latitude" : "37.770874502267",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}"
+          },
+          "category" : "Illegal Postings",
+          "request_details" : "Multiple_Postings on Sidewalk",
+          "source" : "Voice In",
+          "address" : "1035 HAIGHT ST, SAN FRANCISCO, CA, 94117",
+          "request_type" : "Illegal Postings - Multiple_Postings",
+          "status" : "Closed",
+          "updated" : "2015-06-05T04:26:42",
+          "neighborhood" : "Haight Ashbury",
+          "case_id" : "4803331",
+          "closed" : "2015-06-06T17:14:47",
+          "supervisor_district" : "5",
+          "responsible_agency" : "DPW BSM Queue",
+          "opened" : "2015-06-05T04:25:44"
+        }
+        , {
+          "point" : {
+            "needs_recoding" : false,
+            "longitude" : "-122.439266918906",
+            "latitude" : "37.770874502267",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}"
+          },
+          "category" : "Graffiti Public Property",
+          "request_details" : "Pole - Not_Offensive",
+          "source" : "Voice In",
+          "address" : "1035 HAIGHT ST, SAN FRANCISCO, CA, 94117",
+          "request_type" : "Not_Offensive Graffiti on Public Property",
+          "status" : "Open",
+          "updated" : "2015-06-05T05:55:16",
+          "neighborhood" : "Haight Ashbury",
+          "case_id" : "4803329",
+          "supervisor_district" : "5",
+          "responsible_agency" : "DPW Ops Queue",
+          "opened" : "2015-06-05T04:24:20"
+        }
+        , {
+          "point" : {
+            "needs_recoding" : false,
+            "longitude" : "-122.437710909011",
+            "latitude" : "37.772198335161",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}"
+          },
+          "category" : "Illegal Postings",
+          "request_details" : "Multiple_Postings on Sidewalk",
+          "source" : "Voice In",
+          "address" : "1026 PAGE ST, SAN FRANCISCO, CA, 94117",
+          "request_type" : "Illegal Postings - Multiple_Postings",
+          "status" : "Open",
+          "updated" : "2015-06-05T04:14:07",
+          "neighborhood" : "Haight Ashbury",
+          "case_id" : "4803328",
+          "supervisor_district" : "5",
+          "responsible_agency" : "DPW BSM Queue",
+          "opened" : "2015-06-05T04:13:36"
+        }
+        , {
+          "point" : {
+            "needs_recoding" : false,
+            "longitude" : "-122.437710909011",
+            "latitude" : "37.772198335161",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}"
+          },
+          "category" : "Graffiti Public Property",
+          "request_details" : "Pole - Not_Offensive",
+          "source" : "Voice In",
+          "address" : "1026 PAGE ST, SAN FRANCISCO, CA, 94117",
+          "request_type" : "Not_Offensive Graffiti on Public Property",
+          "status" : "Open",
+          "updated" : "2015-06-05T04:38:21",
+          "neighborhood" : "Haight Ashbury",
+          "case_id" : "4803324",
+          "supervisor_district" : "5",
+          "responsible_agency" : "DPW Ops Queue",
+          "opened" : "2015-06-05T04:12:01"
+        }
+        , {
+          "point" : {
+            "needs_recoding" : false,
+            "longitude" : "-122.390239359853",
+            "latitude" : "37.757605654276",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}"
+          },
+          "category" : "Graffiti Public Property",
+          "request_details" : "Other_enter_additional_details_below - Offensive",
+          "source" : "Open311",
+          "address" : "1040 MINNESOTA ST, SAN FRANCISCO, CA, 94107",
+          "request_type" : "Offensive Graffiti on Public Property",
+          "status" : "Open",
+          "updated" : "2015-06-05T02:13:31",
+          "media_url" : {
+            "url" : "http://mobile311.sfgov.org/media/san_francisco/report/photos/55715d3ddf8680108f1d872c/report.jpg"
+          },
+          "neighborhood" : "Potrero Hill",
+          "case_id" : "4803316",
+          "supervisor_district" : "10",
+          "responsible_agency" : "SFMTA - Muni System Feedback Queue",
+          "opened" : "2015-06-05T01:26:52"
+        }
+        , {
+          "point" : {
+            "needs_recoding" : false,
+            "longitude" : "-122.417196237907",
+            "latitude" : "37.78441622092",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}"
+          },
+          "category" : "SFHA Requests",
+          "request_details" : "Carpenters",
+          "source" : "Voice In",
+          "address" : "666 ELLIS ST, Apt 704, SAN FRANCISCO, CA, 94109",
+          "request_type" : "SFHA Priority - Emergency",
+          "status" : "Open",
+          "updated" : "2015-06-05T01:25:06",
+          "neighborhood" : "Downtown/Civic Center",
+          "case_id" : "4803315",
+          "supervisor_district" : "6",
+          "responsible_agency" : "Housing Authority SR Queue",
+          "opened" : "2015-06-05T01:23:07"
+        }
+        , {
+          "point" : {
+            "needs_recoding" : false,
+            "longitude" : "-122.404903014613",
+            "latitude" : "37.77769465051",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}"
+          },
+          "category" : "Street and Sidewalk Cleaning",
+          "request_details" : "Human Waste",
+          "source" : "Open311",
+          "address" : "360 6TH ST, SAN FRANCISCO, CA, 94107",
+          "request_type" : "Hazardous Materials",
+          "status" : "Closed",
+          "updated" : "2015-06-05T02:00:04",
+          "neighborhood" : "South of Market",
+          "case_id" : "4803306",
+          "closed" : "2015-06-05T02:00:04",
+          "supervisor_district" : "6",
+          "responsible_agency" : "DPW Ops Queue",
+          "opened" : "2015-06-05T00:57:59"
+        }
+        , {
+          "point" : {
+            "needs_recoding" : false,
+            "longitude" : "-122.424050584898",
+            "latitude" : "37.763091110935",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}"
+          },
+          "category" : "Sidewalk or Curb",
+          "request_details" : "Collapsed_sidewalk",
+          "source" : "Open311",
+          "address" : "504 GUERRERO ST, SAN FRANCISCO, CA, 94110",
+          "request_type" : "Sidewalk_Defect",
+          "status" : "Open",
+          "updated" : "2015-06-05T00:27:58",
+          "media_url" : {
+            "url" : "http://mobile311.sfgov.org/media/san_francisco/report/photos/55714f74df8680108f1d86e7/report.jpg"
+          },
+          "neighborhood" : "Mission",
+          "case_id" : "4803295",
+          "supervisor_district" : "8",
+          "responsible_agency" : "DPW BSM Queue",
+          "opened" : "2015-06-05T00:27:58"
+        }
+        , {
+          "point" : {
+            "needs_recoding" : false,
+            "longitude" : "-122.406628211702",
+            "latitude" : "37.7793147319755",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}"
+          },
+          "category" : "Street Defects",
+          "request_details" : "Pavement_Defect",
+          "source" : "Voice In",
+          "address" : "Intersection of 6TH ST and TEHAMA ST",
+          "request_type" : "Pavement_Defect",
+          "status" : "Open",
+          "updated" : "2015-06-05T08:37:57",
+          "neighborhood" : "South of Market",
+          "case_id" : "4803263",
+          "supervisor_district" : "6",
+          "responsible_agency" : "DPW BSM Queue",
+          "opened" : "2015-06-04T23:30:18"
+        }
+        , {
+          "point" : {
+            "needs_recoding" : false,
+            "longitude" : "-122.41048675405",
+            "latitude" : "37.765605883717",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}"
+          },
+          "category" : "Street and Sidewalk Cleaning",
+          "request_details" : "City_garbage_can_overflowing",
+          "source" : "Open311",
+          "address" : "Intersection of 16TH ST and BRYANT ST",
+          "request_type" : "City_garbage_can_overflowing",
+          "status" : "Closed",
+          "updated" : "2015-06-05T03:30:34",
+          "neighborhood" : "Mission",
+          "case_id" : "4803249",
+          "closed" : "2015-06-05T03:30:34",
+          "supervisor_district" : "10",
+          "responsible_agency" : "Recology_Overflowing",
+          "opened" : "2015-06-04T23:11:43"
+        }
+        , {
+          "point" : {
+            "needs_recoding" : false,
+            "longitude" : "-122.444667317082",
+            "latitude" : "37.766499081229",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}"
+          },
+          "category" : "Abandoned Vehicle",
+          "request_details" : "Black - Jeep - CJ - 6RHB260",
+          "source" : "Web Self Service",
+          "address" : "1493 MASONIC AVE, SAN FRANCISCO, CA, 94117",
+          "request_type" : "Abandoned Vehicle - SUV",
+          "status" : "Open",
+          "updated" : "2015-06-05T05:42:59",
+          "neighborhood" : "Haight Ashbury",
+          "case_id" : "4803247",
+          "supervisor_district" : "8",
+          "responsible_agency" : "DPT Abandoned Vehicles Work Queue",
+          "opened" : "2015-06-04T23:09:57"
+        }
+        , {
+          "point" : {
+            "needs_recoding" : false,
+            "longitude" : "-122.442006707595",
+            "latitude" : "37.7293753075303",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}"
+          },
+          "category" : "Abandoned Vehicle",
+          "source" : "Web Self Service",
+          "address" : "Intersection of CIRCULAR AVE and CONGO ST",
+          "request_type" : "Abandoned Vehicle - Other",
+          "status" : "Open",
+          "updated" : "2015-06-06T14:02:16",
+          "neighborhood" : "Outer Mission",
+          "case_id" : "4803244",
+          "supervisor_district" : "7",
+          "responsible_agency" : "DPT Abandoned Vehicles Work Queue",
+          "opened" : "2015-06-04T23:06:01"
+        }
+        , {
+          "point" : {
+            "needs_recoding" : false,
+            "longitude" : "-122.442006707595",
+            "latitude" : "37.7293753075303",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}"
+          },
+          "category" : "Abandoned Vehicle",
+          "source" : "Web Self Service",
+          "address" : "Intersection of CIRCULAR AVE and CONGO ST",
+          "request_type" : "Abandoned Vehicle - Other",
+          "status" : "Closed",
+          "updated" : "2015-06-06T14:03:20",
+          "neighborhood" : "Outer Mission",
+          "case_id" : "4803242",
+          "closed" : "2015-06-06T14:03:20",
+          "supervisor_district" : "7",
+          "responsible_agency" : "DPT Abandoned Vehicles Work Queue",
+          "opened" : "2015-06-04T23:03:58"
+        }
+        , {
+          "point" : {
+            "needs_recoding" : false,
+            "longitude" : "-122.4809487",
+            "latitude" : "37.769059013",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}"
+          },
+          "category" : "Rec and Park Requests",
+          "request_details" : "Irrigation",
+          "source" : "Voice In",
+          "address" : "Golden Gate Park, , SAN FRANCISCO, CA, 94122",
+          "request_type" : "Park - Neighborhood_Services_Area",
+          "status" : "Closed",
+          "updated" : "2015-06-05T02:01:23",
+          "neighborhood" : "Golden Gate Park",
+          "case_id" : "4803232",
+          "closed" : "2015-06-05T02:01:23",
+          "supervisor_district" : "1",
+          "responsible_agency" : "RPD NSA Queue",
+          "opened" : "2015-06-04T22:48:00"
+        }
+         ]
+    http_version: 
+  recorded_at: Sun, 07 Jun 2015 22:54:46 GMT
+recorded_with: VCR 2.9.3
